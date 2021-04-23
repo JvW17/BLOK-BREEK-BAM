@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BLOK BREEK BAM!</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <style>
+      @import url("https://use.typekit.net/zkx6vyo.css");
+
+      span, a{
+        color: #1D4E89;
+        font-family: Courier, sans-serif;
+        font-weight: 400;
+      }
+
+      a:hover{
+        color: #FF6F69;
+        transition: all 0.3s ease 0s;
+      }
+
+      canvas{
+        display : block;
+        margin : 0 auto;
+        padding: 0;
+
+      }
+
+      .tekst{
+        position: absolute;
+        z-index: 100;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.min.js"></script>
+    <script defer src="StartScene.js"></script>
+    <script defer src="InstructionScene.js"></script>
+    <script defer src="GameScene.js"></script>
+    <script defer src="EndScene.js"></script>   
+    <script defer src="game.js"></script>
+
+    <span class="tekst">Gemaakt door: <a href="https://www.justinvanwijk.nl/" target="blank">Justin van Wijk</a></span>
+
+  </body>
+
+  </html>
